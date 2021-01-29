@@ -1,0 +1,17 @@
+.linkMap{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+        &__text{
+            font-family: ProductSans-Light;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            color: #778699;
+        }
+        &__img{
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+}

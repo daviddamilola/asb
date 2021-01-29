@@ -1,0 +1,13 @@
+.cards-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 26px;
+}
+
+.division-section-wrapper{
+    display: grid;
+    grid-template-columns: 0.93fr 4fr;
+    grid-gap: 26px;
+    margin-top: 24px;
+    margin-bottom: 49px;
+}

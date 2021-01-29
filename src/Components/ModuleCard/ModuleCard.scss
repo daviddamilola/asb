@@ -1,0 +1,70 @@
+.modulecard{
+    padding: 12px;
+    width: 100%;
+    
+    &__header{
+        display: flex;
+        align-items: center;
+        img{
+            margin-right: 16px;
+        }
+        p{
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+    }
+
+    &__body{
+        margin-top: 19px;
+    }
+
+    &__item{
+        height: 72px;
+        width: 100%;
+        border-left: 1px dashed #C4C4C4;
+        position: relative;
+        top: 5px;
+        .history-dot{
+            width: 9px;
+            height: 9px;
+            border-radius: 100%;
+            background: #707070;
+            position: absolute;
+            left: -5px;
+        }
+        .title-n-date{
+            position: relative;
+            top: -5.5px;
+            left: 10px;
+        }
+        .title{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 140%;
+            color: #747474;
+            
+        }
+        .date{
+            margin-top: 10px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 140%;
+            color: #A1AACE;
+        }
+        .dot-devide{
+            width: 4px;
+            height: 4px;
+            border-radius: 100%;
+            margin: 0px 6px;
+            background: #C4C4C4;
+            display: inline-block;
+        }
+    }
+}
+

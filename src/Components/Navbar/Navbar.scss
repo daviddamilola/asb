@@ -1,0 +1,103 @@
+.navbar{
+    background: #FFFFFF;
+    padding: 0px;
+    box-shadow: inset 0px -1px 0px rgba(220, 225, 231, 0.572143);
+    &__wrapper{
+        width: 95%;
+        margin: 0 auto;
+        justify-content: space-between;
+    align-items: center;
+    display: flex;
+    }
+    &__logo-n-links{
+        display: flex;
+        align-items: center;
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            
+            color: #000000;
+            
+        }
+    }
+    &__search-n-icon{
+        // padding: 8px 0px;
+        display: flex;
+        align-items: center;
+        & > img{
+            margin-left: 32.03px;
+        }
+    }
+
+    &__links{
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__profile{
+        width: 36px;
+        height: 36px;
+        background: #D8D8D8;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 32px;
+    }
+
+    &__link-icon{
+        margin-right: 9.2px;
+    }
+
+    &__link{
+        padding: 15px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 22px;
+        color: #778699;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        &--active{
+            border-bottom: 4px solid #006FD6;
+            background: #DEEFFF;
+            a{
+                &:hover{
+                    text-decoration: none ;
+                }
+            }
+        }
+        
+        &:hover{
+            background: #DEEFFF;
+            border-bottom:4px solid #fff;
+        }
+    }
+}
+
+.search{
+    position: relative;
+}
+
+.search-input{
+    background: #FFFFFF;
+    border: 1px solid #DCE1E7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 16px;
+    text-indent: 20px;
+ 
+}
+
+.search-input-icon{
+    position: absolute;
+    top: 35%;
+    left: 16px;
+}
+
+a:hover{
+    text-decoration: none !important;
+}

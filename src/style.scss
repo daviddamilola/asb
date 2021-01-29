@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+ font-family: ProductSans-Black, ProductSans-BlackItalic, ProductSans-Bold, ProductSans-Light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@font-face {
+  font-family: 'ProductSans-Black';
+  src: local('ProductSans-Black'), url(./fonts/ProductSans-Black.ttf) format('truetype');;
+}
+
+@font-face {
+  font-family: 'ProductSans-BlackItalic';
+  src: local('ProductSans-BlackItalic'), url(./fonts/ProductSans-BlackItalic.ttf) format('truetype');;
+}
+
+@font-face {
+  font-family: 'ProductSans-Bold';
+  src: local('ProductSans-Bold'), url(./fonts/ProductSans-Bold.ttf) format('truetype');;
+}
+
+@font-face {
+  font-family: 'ProductSans-BoldItalic';
+  src: local('ProductSans-BoldItalic'), url(./fonts/ProductSans-BoldItalic.ttf) format('truetype');;
+}
+
+@font-face {
+  font-family: 'ProductSans-Italic';
+  src: local('ProductSans-Italic'), url(./fonts/ProductSans-Italic.ttf) format('truetype');;
+}
+
+@font-face {
+  font-family: 'ProductSans-Light';
+  src: local('ProductSans-Light'), url(./fonts/ProductSans-Light.ttf) format('truetype');;
+}
+
+@font-face {
+  font-family: 'ProductSans-LightItalic';
+  src: local('ProductSans-LightItalic'), url(./fonts/ProductSans-LightItalic.ttf) format('truetype');;
+}
